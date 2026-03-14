@@ -22,7 +22,7 @@ public final class Configs {
 
             drivingConfig
                     .idleMode(IdleMode.kBrake)
-                    .smartCurrentLimit(50);
+                    .smartCurrentLimit(ModuleConstants.kDrivingSupplyCurrentLimitAmps);
             drivingConfig.encoder
                     .positionConversionFactor(drivingFactor) // meters
                     .velocityConversionFactor(drivingFactor / 60.0); // meters per second
@@ -35,7 +35,7 @@ public final class Configs {
 
             turningConfig
                     .idleMode(IdleMode.kBrake)
-                    .smartCurrentLimit(20);
+                    .smartCurrentLimit(ModuleConstants.kTurningSupplyCurrentLimitAmps);
 
             turningConfig.absoluteEncoder
                     // Invert the turning encoder, since the output shaft rotates in the opposite

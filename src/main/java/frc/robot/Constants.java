@@ -65,6 +65,8 @@ public final class Constants {
     // 13T, or 14T. This changes the drive speed of the module (a pinion gear with
     // more teeth will result in a robot that drives faster).
     public static final int kDrivingMotorPinionTeeth = 14;
+    public static final int kDrivingSupplyCurrentLimitAmps = 80;
+    public static final int kTurningSupplyCurrentLimitAmps = 20;
 
     // Calculations required for driving motor conversion factors and feed forward
     public static final double kDrivingMotorFreeSpeedRps = NeoMotorConstants.kFreeSpeedRpm / 60;
