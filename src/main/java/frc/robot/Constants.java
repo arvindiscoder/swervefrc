@@ -51,7 +51,7 @@ public final class Constants {
     public static final int kFrontRightDrivingCanId = 13;
     public static final int kRearRightDrivingCanId = 20;
 
-    public static final int kFrontLeftTurningCanId = 1;
+    public static final int kFrontLeftTurningCanId = 19;
     public static final int kRearLeftTurningCanId = 3;
 
     public static final int kFrontRightTurningCanId = 2;
@@ -84,11 +84,12 @@ public final class Constants {
     public static final double kDriveDeadband = 0.05;
   }
 
-  public static final class ShooterConstants{
+  public static final class ShooterConstants {
     public static final int kShooter1CanId = 11;
     public static final int kShooter2CanId = 21;
 
   }
+
   public static final class AutoConstants {
     public static final double kMaxSpeedMetersPerSecond = 3;
     public static final double kMaxAccelerationMetersPerSecondSquared = 3;
